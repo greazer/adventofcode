@@ -25,6 +25,6 @@ for index, row in dirs_df.iterrows():
         forward_progress += row.value
         depth += aim*row.value
     
-print('forward_progress=' + str(forward_progress) + ' ' + 'depth=' + str(depth))
-print('answer=' + str(forward_progress * depth))
+print(f'forward_progress={forward_progress} depth={depth}')
+print(f'answer={forward_progress * depth}')
 # %%
